@@ -1,16 +1,16 @@
-package org.zzia.info.junit.test;
+package org.zzia.info.junit.common.test;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 import org.junit.runner.RunWith;
 import org.mockito.runners.MockitoJUnitRunner;
-import org.zzia.info.junit.controller.AccountLoginController;
-import org.zzia.info.junit.dao.AccountDao;
+import org.zzia.info.junit.common.controller.AccountLoginController;
+import org.zzia.info.junit.common.dao.AccountDao;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
 import static org.mockito.Matchers.anyString;
 import static org.mockito.Mockito.when;
-import org.zzia.info.junit.entity.Account;
+import org.zzia.info.junit.common.entity.Account;
 @RunWith(MockitoJUnitRunner.class)
 public class AccountLoginControllerTest {
     private AccountDao accountDao ;

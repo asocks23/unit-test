@@ -1,4 +1,4 @@
-package org.zzia.info.junit.entity;
+package org.zzia.info.junit.common.entity;
 
 public class Account {
     private String name ;

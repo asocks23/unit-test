@@ -1,7 +1,7 @@
-package org.zzia.info.junit.controller;
+package org.zzia.info.junit.common.controller;
 
-import org.zzia.info.junit.dao.AccountDao;
-import org.zzia.info.junit.entity.Account;
+import org.zzia.info.junit.common.entity.Account;
+import org.zzia.info.junit.common.dao.AccountDao;
 
 public class AccountLoginController {
     private AccountDao accountDao ;
